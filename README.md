@@ -9,8 +9,8 @@ Frontend repository: https://github.com/RA42-y/friend-match-frontend
 ## Table of Contents
 
 - [Features](#Features)
-- [Tech Stack](<#Tech Stack>)
-- [Getting Started](<#Getting Started>)
+- [Tech Stack](#<Tech Stack>)
+- [Getting Started](#<Getting Started>)
     - [Install](#Install)
     - [Usage](#Usage)
 
