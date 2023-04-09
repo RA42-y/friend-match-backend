@@ -6,14 +6,6 @@ Backend repository: https://github.com/RA42-y/friend-match-backend
 
 Frontend repository: https://github.com/RA42-y/friend-match-frontend
 
-## Table of Contents
-
-- [Features](#Features)
-- [Tech Stack](#<Tech Stack>)
-- [Getting Started](#<Getting Started>)
-    - [Install](#Install)
-    - [Usage](#Usage)
-
 ## Features
 
 - User Registration and Management: Users can register and create their own profile in the app. They can manage their profile information and update it at any time.
