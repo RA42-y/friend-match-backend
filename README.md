@@ -56,19 +56,19 @@ Frontend repository: https://github.com/RA42-y/friend-match-frontend
 
 1. Clone the backend Git repository to your local machine:
 
-    ```
+    ```shell
     git clone https://github.com/RA42-y/friend-match-backend.git
     ```
 
 2. Navigate to the backend directory:
 
-    ```
+    ```shell
     cd friend-match-backend
     ```
 
 3. Install Maven dependencies:
 
-    ```
+    ```shell
     mvn clean install -DskipTests
     ```
 
@@ -79,7 +79,7 @@ Frontend repository: https://github.com/RA42-y/friend-match-frontend
 
 5. Start Redis:
 
-    ```
+    ```shell
     redis-server
     ```
 
@@ -87,7 +87,7 @@ Frontend repository: https://github.com/RA42-y/friend-match-frontend
 
 6. Start the application:
 
-    ```
+    ```shell
     mvn spring-boot:run
     ```
 
@@ -99,13 +99,13 @@ Congratulations! You have successfully installed and started the backend applica
 
 7. Clone the frontend Git repository to your local machine:
 
-    ```
+    ```shell
     git clone https://github.com/RA42-y/friend-match-frontend.git
     ```
 
 8. Navigate to the frontend directory:
 
-    ```
+    ```shell
     cd friend-match-frontend
     ```
 
@@ -115,20 +115,20 @@ Congratulations! You have successfully installed and started the backend applica
 
     - Verify that Node.js and npm are installed by running the following commands:
 
-        ```
+        ```shell
         node -v
         npm -v
         ```
 
 10. Install project dependencies:
 
-    ```
+    ```shell
     npm install
     ```
 
 11. Start the frontend application:
 
-    ```
+    ```shell
     npm run dev
     ```
 
@@ -144,3 +144,50 @@ Congratulations! You have successfully installed and started the frontend applic
 4. Users can view similar users recommended to them.
 5. Users can create and join teams and view team information and member information.
 
+## Interface
+
+### Home page
+
+The home page is the landing page of the application. By default, it displays a list of users ordered by their user code. Users can also switch to the matching mode, where the list of users is ordered by the similarity of tags according to the current login user.
+
+<p>
+  <img src="assets/home.png" width="30%" />
+  <img src="assets/home-matching.png" width="30%" /> 
+</p>
+
+### User Search
+
+Users can search for other users based on selected tags. The list of users who have the selected tags will be displayed.
+
+<p float="left">
+  <img src="assets/search-tags.png" width="30%" />
+  <img src="assets/search-results.png" width="30%" /> 
+</p>
+
+### Teams
+
+The Teams page shows a list of public or private teams. Users can create a new team by filling out a form.
+
+<p float="left">
+  <img src="assets/team-public.png" width="30%" />
+  <img src="assets/team-private.png" width="30%" /> 
+  <img src="assets/team-add-form.png" width="30%" />
+</p>
+
+### User Info
+
+The User Info page is only accessible to logged-in users. Users can update their personal information by clicking on the corresponding section.
+
+<p float="left">
+  <img src="assets/login.png" width="30%" />
+  <img src="assets/user.png" width="30%" />
+  <img src="assets/user-update-info.png" width="30%" /> 
+</p>
+
+## API
+
+Backend RESTful API documentation: [friend-match-backend-api-v1.md](assets/friend-match-backend-api-v1.md)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.

@@ -21,8 +21,8 @@ public class SwaggerConfig {
                 .apiInfo(new ApiInfoBuilder()
                         //.title("swagger-bootstrap-ui-demo RESTful APIs")
                         .description("friend-match-backend RESTful APIs")
-                        .termsOfServiceUrl("https://github.com/RA42-y")
-                        .contact("jieni.yu42@gmail.com")
+                        .termsOfServiceUrl("https://xxx")
+                        .contact("https://github.com/RA42-y")
                         .version("1.0")
                         .build())
                 //分组名称
