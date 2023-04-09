@@ -17,16 +17,16 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2WebMvc;
 public class SwaggerConfig {
     @Bean(value = "defaultApi2")
     public Docket defaultApi2() {
-        Docket docket=new Docket(DocumentationType.SWAGGER_2)
+        Docket docket = new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(new ApiInfoBuilder()
                         //.title("swagger-bootstrap-ui-demo RESTful APIs")
-                        .description("# swagger-bootstrap-ui-demo RESTful APIs")
-                        .termsOfServiceUrl("http://www.xx.com/")
-                        .contact("xx@qq.com")
+                        .description("friend-match-backend RESTful APIs")
+                        .termsOfServiceUrl("https://github.com/RA42-y")
+                        .contact("jieni.yu42@gmail.com")
                         .version("1.0")
                         .build())
                 //分组名称
-                .groupName("2.X版本")
+                .groupName("friend-match-backend-api-v1")
                 .select()
                 //这里指定Controller扫描包路径
                 .apis(RequestHandlerSelectors.basePackage("com.ra.friendmatch.controller"))
