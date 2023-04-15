@@ -76,6 +76,7 @@ Frontend repository: https://github.com/RA42-y/friend-match-frontend
 
     - Create a new MySQL database named `friend-match`.
     - Update the MySQL connection details in the `application.yml` file located in `friend-match-backend/src/main/resources/application.yml`. Set the values for `spring.datasource.url`, `spring.datasource.username`, and `spring.datasource.password`.
+    - Initialize the database with the sql file provided `sql/create_table.sql`.
 
 5. Start Redis:
 
